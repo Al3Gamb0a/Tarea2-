@@ -2,7 +2,7 @@ namespace Tarea2_;
 
 class Puerta{
 
-    public string color = "";
+    public string color;
 
     public Puerta(){
         this.color = "Café";

@@ -8,6 +8,7 @@ class Casa{
 
     public Casa(int area){
         this.puerta = new Puerta(); 
+        this.area = area;
     }
 
     public void SetArea(int area){
@@ -18,7 +19,7 @@ class Casa{
         this.puerta = puerta;
     }
 
-    public void MostrarDatos(){
+    public virtual void MostrarDatos(){
         Console.WriteLine("Soy una Casa, mi área es " + this.area + " m2");
     }
 }

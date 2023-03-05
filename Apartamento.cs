@@ -5,7 +5,7 @@ namespace Tarea2_;
         public Apartamento(): base(50){
         }
 
-        new public void MostrarDatos(){
-            Console.WriteLine("Soy una Apartamento, mi area es " + area + " m2");
+        override public void MostrarDatos(){
+            Console.WriteLine("Soy un Apartamento, mi area es " + this.area + " m2");
         }
     }

@@ -1,21 +1,19 @@
 namespace Tarea2_;
 
 class Persona{
-    public string nombre = "";
+    public string nombre;
 
     public Casa casa;
 
     public Persona(){
 
         this.nombre = "Juan";
-
         this.casa = new Casa(150);
     }
 
     public Persona(string nombre, Casa casa){
 
         this.nombre = nombre;
-
         this.casa = casa;
     }
 
@@ -30,7 +28,7 @@ class Persona{
     }
 
     public void MostrarDatos(){
-        Console.WriteLine("Mi nombre es " + nombre);
+        Console.WriteLine("\nMi nombre es " + nombre);
 
         casa.MostrarDatos();
         casa.puerta.MostrarDatos();
